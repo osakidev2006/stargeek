@@ -17,6 +17,7 @@
 .container img{
     width: 50%;
 }
+
 form{
     width: 50%;
     display: flex;
@@ -42,6 +43,5 @@ form > input[type="submit"]{
     width: 100%;
     margin: 20px auto;
     box-shadow: gray 3px 3px 6px;
+
 }
-
-
