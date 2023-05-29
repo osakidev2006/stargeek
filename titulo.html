@@ -8,19 +8,37 @@
   <title>Cadastro do Titulo</title>
 </head>
 <body>
-  <div class="container">
-  
-    <img src="logo.png" alt="Logo">
-  
-    <form action="catalogo.html">
-      <label for="">Nome do titulo</label>
-      <input type="text" name="" id="">
-      <label for="">Resumo</label>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <input type="file" name="" id="">
-      <input type="submit" value="CADASTRAR">
+
+   <div class="container"> 
+
+      <div class="cards">
+      </div>
+      <header>
+       <img src="logo.png" alt="Logo">
+      </header>
+
+    <form>
+      <div class="cadmodal">
+        <div class="modal">
+            <form id="formulario">
+                <label for="">Nome do Produto:</label>
+                <input type="text" name="" id="inomep">
+
+                <label for="">Descrição:</label>
+                <br>
+                <textarea name="txtivoce" id="idescricao" cols="30" rows="10"></textarea>
+                <br> 
+                <label for="">Foto:</label>
+                <input type="file" name="foto" id="foto">
+
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </div>
+    </div>
     </form>
+   
   </div>
-     
+     <script src="titulo.js"></script>
 </body>
 </html>
+
